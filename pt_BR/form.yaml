@@ -35,12 +35,12 @@
 ---
 - id: 1
   type: U # notrans
-  title: Contact Information
+  title: Informações de Contato
   flags: 0
   fields:
     - type: text # notrans
       name: email # notrans
-      label: Email Address
+      label: Endereço de E-mail
       sort: 1
       flags: 0x777A3
       configuration:
@@ -49,7 +49,7 @@
         validator: email # notrans
     - type: text # notrans
       name: name # notrans
-      label: Full Name
+      label: Nome Completo
       sort: 2
       flags: 0x777A3
       configuration:
@@ -57,12 +57,12 @@
         length: 64
     - type: phone # notrans
       name: phone # notrans
-      label: Phone Number
+      label: Número de Telefone
       sort: 3
       flags: 0x3301
     - type: memo # notrans
       name: notes
-      label: Internal Notes
+      label: Notas Internas
       sort: 4
       flags: 0x3001
       configuration:
@@ -70,18 +70,20 @@
         cols: 40
 - id: 2
   type: T # notrans
-  title: Ticket Details
-  instructions: Please Describe Your Issue
+  title: Detalhes do Chamado
+  instructions: Por Favor Descreva Seu Problema
   notes: |
-      This form will be attached to every ticket, regardless of its source.
-      You can add any fields to this form and they will be available to all
-      tickets, and will be searchable with advanced search and filterable.
+      Este formulário será anexado a cada chamado, independente de sua
+      origem.
+      Você pode adicionar qualquer campo a este formulário e eles serão
+      disponíveis para todos os chamados, e pesquisáveis com a pesquisa
+      avançada e filtráveis.
   flags: 0
   fields:
     - id: 20
       type: text # notrans
       name: subject # notrans
-      label: Issue Summary
+      label: Assunto (Resumo do Problema)
       sort: 1
       flags: 0x77721
       configuration:
@@ -90,18 +92,18 @@
     - id: 21
       type: thread # notrans
       name: message # notrans
-      label: Issue Details
-      hint: Details on the reason(s) for opening the ticket.
+      label: Detalhes do Problema
+      hint: Detalhes do(s) motivo(s) para abrir o chamado.
       sort: 2
       flags: 0x75523
     - id: 22
       type: priority # notrans
       name: priority # notrans
-      label: Priority Level
+      label: Nível de Prioridade
       flags: 0x430B1
       sort: 3
 - type: C # notrans
-  title: Company Information
+  title: Informação da Empresa
   instructions: Details available in email templates
   flags: 0
   fields:

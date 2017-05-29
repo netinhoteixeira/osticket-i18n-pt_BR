@@ -13,17 +13,17 @@
 #
 ---
 - id: 1
-  name: Open
+  name: Aberto
   state: open
   mode: 3
   sort: 1
   flags: 0
   properties:
     description: >
-        Open tickets.
+        Chamados abertos.
 
 - id: 2
-  name: Resolved
+  name: Resolvido
   state: closed
   mode: 1
   sort: 2
@@ -32,10 +32,10 @@
     allowreopen: true
     reopenstatus: 0
     description: >
-        Resolved tickets
+        Chamados resolvidos.
 
 - id: 3
-  name: Closed
+  name: Fechado
   state: closed
   mode: 3
   sort: 3
@@ -44,10 +44,10 @@
     allowreopen: true
     reopenstatus: 0
     description: >
-        Closed tickets. Tickets will still be accessible on client and staff panels.
+        Chamados fechados. Os chamados ainda estarão acessíveis pelo painel do cliente e sua equipe interna.
 
 - id: 4
-  name: Archived
+  name: Arquivado
   state:  archived
   mode: 3
   sort: 4
@@ -58,11 +58,11 @@
         ticket queues and client panel.
 
 - id: 5
-  name: Deleted
+  name: Apagado
   state: deleted
   mode: 3
   sort: 5
   flags: 0
   properties:
     description: >
-        Tickets queued for deletion. Not accessible on ticket queues.
+        Chamados marcados para a remoção. Não acessíveis nas listas de chamados.
