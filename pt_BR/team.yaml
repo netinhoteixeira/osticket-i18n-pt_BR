@@ -11,6 +11,6 @@
 #
 ---
 - flags: 0x01
-  name: Level I Support
+  name: Suporte Nível I
   notes: |
-    Tier 1 support, responsible for the initial iteraction with customers
+    Primeiro nível de suporte, responsável pela interação inicial com os clientes.
