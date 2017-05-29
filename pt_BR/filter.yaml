@@ -29,7 +29,7 @@
   target: Email #notrans
   name: SYSTEM BAN LIST #notrans
   notes: |
-    Internal list for email banning. Do not remove
+    NÃO REMOVA. Lista interna para banimento de e-mails.
 
   rules:
     - isactive: 1

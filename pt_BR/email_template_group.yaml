@@ -15,6 +15,6 @@
 ---
 - id: 1
   isactive: 1
-  name: osTicket Default Template (HTML)
+  name: Modelo Padrão do osTicket (HTML)
   notes: |
-    Default osTicket templates
+    Modelos padrões do osTicket

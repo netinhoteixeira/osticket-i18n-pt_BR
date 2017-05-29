@@ -35,12 +35,12 @@
 ---
 - id: 1
   type: U # notrans
-  title: Contact Information
+  title: Informações de Contato
   flags: 0
   fields:
     - type: text # notrans
       name: email # notrans
-      label: Email Address
+      label: Endereço de E-mail
       sort: 1
       flags: 0x777A3
       configuration:
@@ -49,7 +49,7 @@
         validator: email # notrans
     - type: text # notrans
       name: name # notrans
-      label: Full Name
+      label: Nome Completo
       sort: 2
       flags: 0x777A3
       configuration:
@@ -57,12 +57,12 @@
         length: 64
     - type: phone # notrans
       name: phone # notrans
-      label: Phone Number
+      label: Número de Telefone
       sort: 3
       flags: 0x3301
     - type: memo # notrans
       name: notes
-      label: Internal Notes
+      label: Notas Internas
       sort: 4
       flags: 0x3001
       configuration:
@@ -70,18 +70,20 @@
         cols: 40
 - id: 2
   type: T # notrans
-  title: Ticket Details
-  instructions: Please Describe Your Issue
+  title: Detalhes do Chamado
+  instructions: Por favor descreva seu problema.
   notes: |
-      This form will be attached to every ticket, regardless of its source.
-      You can add any fields to this form and they will be available to all
-      tickets, and will be searchable with advanced search and filterable.
+      Este formulário será anexado a cada chamado, independente de sua
+      origem.
+      Você pode adicionar qualquer campo a este formulário e eles serão
+      disponíveis para todos os chamados, e pesquisáveis com a pesquisa
+      avançada e filtráveis.
   flags: 0
   fields:
     - id: 20
       type: text # notrans
       name: subject # notrans
-      label: Issue Summary
+      label: Assunto (Resumo do Problema)
       sort: 1
       flags: 0x77721
       configuration:
@@ -90,24 +92,24 @@
     - id: 21
       type: thread # notrans
       name: message # notrans
-      label: Issue Details
-      hint: Details on the reason(s) for opening the ticket.
+      label: Detalhes do Problema
+      hint: Detalhes do(s) motivo(s) para abrir o chamado.
       sort: 2
       flags: 0x75523
     - id: 22
       type: priority # notrans
       name: priority # notrans
-      label: Priority Level
+      label: Nível de Prioridade
       flags: 0x430B1
       sort: 3
 - type: C # notrans
-  title: Company Information
-  instructions: Details available in email templates
+  title: Informação da Empresa
+  instructions: Detalhes disponíveis nos modelos de e-mail.
   flags: 0
   fields:
     - type: text # notrans
       name: name # notrans
-      label: Company Name
+      label: Nome da Empresa
       sort: 1
       flags: 0x471A1
       configuration:
@@ -115,7 +117,7 @@
         length: 64
     - type: text # notrans
       name: website # notrans
-      label: Website
+      label: Site
       sort: 2
       flags: 0x3101
       configuration:
@@ -123,14 +125,14 @@
         length: 64
     - type: phone # notrans
       name: phone # notrans
-      label: Phone Number
+      label: Número de Telefone
       sort: 3
       flags: 0x3101
       configuration:
         ext: false
     - type: memo # notrans
       name: address
-      label: Address
+      label: Endereço
       sort: 4
       flags: 0x3101
       configuration:
@@ -139,13 +141,13 @@
         html: false
         length: 100
 - type: O # notrans
-  title: Organization Information
-  instructions: Details on user organization
+  title: Informações da Organização
+  instructions: Detalhes da organização do usuário.
   flags: 0
   fields:
     - type: text # notrans
       name: name # notrans
-      label: Name
+      label: Nome
       sort: 1
       flags: 0x777A3
       configuration:
@@ -153,7 +155,7 @@
         length: 64
     - type: memo
       name: address
-      label: Address
+      label: Endereço
       sort: 2
       flags: 0x3301
       configuration:
@@ -163,12 +165,12 @@
         html: false
     - type: phone
       name: phone
-      label: Phone
+      label: Número de Telefone
       sort: 3
       flags: 0x3301
     - type: text
       name: website
-      label: Website
+      label: Site
       sort: 4
       flags: 0x3301
       configuration:
@@ -176,24 +178,24 @@
         length: 0
     - type: memo # notrans
       name: notes
-      label: Internal Notes
+      label: Notas Internas
       sort: 5
       flags: 0x3001
       configuration:
         rows: 4
         cols: 40
 - type: A # notrans
-  title: Task Details
-  instructions: Please Describe The Issue
+  title: Detalhes da Tarefa
+  instructions: Por favor descreva a tarefa.
   notes: |
-      This form is used to create a task.
+      Este formulário é usado para criar uma tarefa.
   flags: 0
   fields:
     - type: text # notrans
       name: title # notrans
       flags: 0x470A1
       sort: 1
-      label: Title
+      label: Título
       configuration:
         size: 40
         length: 50
@@ -201,5 +203,5 @@
       name: description # notrans
       flags: 0x450F3
       sort: 2
-      label: Description
-      hint: Details on the reason(s) for creating the task.
+      label: Descrição
+      hint: Detalhes do(s) motivo(s) para criar uma tarefa.

@@ -13,23 +13,23 @@
 # department of the initial staff member -- the administrator.
 ---
 - id: 1
-  name: Support
+  name: Suporte
   signature: |
-    Support Department
+    Departamento de Suporte
   ispublic: 1
   group_membership: 1
 
 - id: 2
-  name: Sales
+  name: Vendas
   signature: |
-    Sales and Customer Retention
+    Departamento de Ventas e Retenção do Cliente
   ispublic: 1
   sla_id: 1
   group_membership: 1
 
 - id: 3
-  name: Maintenance
+  name: Manutenção
   signature: |
-    Maintenance Department
+    Departamento de Manutenção
   ispublic: 0
   group_membership: 0
