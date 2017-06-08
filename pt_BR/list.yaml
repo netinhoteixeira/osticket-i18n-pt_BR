@@ -23,27 +23,27 @@
 ---
 # Ticket statuses
 - type: ticket-status #notrans
-  name: Ticket Status
-  name_plural: Ticket Statuses
+  name: Situação do Chamado
+  name_plural: Situações do Chamado
   sort_mode: SortCol  # notrans
   masks: 13
   notes: |
-    Ticket statuses
+    Situações do Chamado
   properties:
-    title: Ticket Status Properties
-    instructions: Properties that can be set on a ticket status.
+    title: Propriedades da Situação do Chamado
+    instructions: Propriedades que podem ser definidas em uma situação do chamado.
     flags: 0
     fields:
       - type: state # notrans
         name: state # notrans
-        label: State
+        label: Situação
         sort: 1
         flags: 0x770F1
         configuration:
-            prompt: State of a ticket
+            prompt: Situação de um chamado
       - type: memo # notrans
         name: description # notrans
-        label: Description
+        label: Descrição
         sort: 3
         flags: 0x73021
         configuration:
