@@ -14,7 +14,7 @@
   flags: 1
   name: Todos os Acessos
   notes: |
-    Regra com acesso ilimitado
+    Regra com acesso ilimitado.
 
   permissions: [
     ticket.create,
@@ -36,9 +36,9 @@
 
 - id: 2
   flags: 1
-  name: Acesso Extendido
+  name: Acesso Expandido
   notes: |
-    Regra com acesso extendido
+    Regra com acesso expandido.
 
   permissions: [
     ticket.create,
@@ -59,7 +59,7 @@
   flags: 1
   name: Acesso Limitado
   notes: |
-    Regra com acesso limitado
+    Regra com acesso limitado.
 
   permissions: [
     ticket.create,
@@ -73,6 +73,7 @@
 
 - id: 4
   flags: 1
-  name: Visualizar Somente
-  notes: Regra simples sem nenhuma permissão
+  name: Somente Visualização
+  notes: |
+    Regra simples sem permissões.
   permissions: []
