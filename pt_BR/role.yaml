@@ -12,9 +12,9 @@
 # ---
 - id: 1
   flags: 1
-  name: All Access
+  name: Todos os Acessos
   notes: |
-    Role with unlimited access
+    Regra com acesso ilimitado
 
   permissions: [
     ticket.create,
@@ -36,9 +36,9 @@
 
 - id: 2
   flags: 1
-  name: Expanded Access
+  name: Acesso Extendido
   notes: |
-    Role with expanded access
+    Regra com acesso extendido
 
   permissions: [
     ticket.create,
@@ -57,9 +57,9 @@
 
 - id: 3
   flags: 1
-  name: Limited Access
+  name: Acesso Limitado
   notes: |
-    Role with limited access
+    Regra com acesso limitado
 
   permissions: [
     ticket.create,
@@ -73,6 +73,6 @@
 
 - id: 4
   flags: 1
-  name: View only
-  notes: Simple role with no permissions
+  name: Visualizar Somente
+  notes: Regra simples sem nenhuma permissão
   permissions: []

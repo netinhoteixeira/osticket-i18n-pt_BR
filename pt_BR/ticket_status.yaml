@@ -44,7 +44,8 @@
     allowreopen: true
     reopenstatus: 0
     description: >
-        Chamados fechados. Os chamados ainda estarão acessíveis pelo painel do cliente e sua equipe interna.
+        Chamados fechados. Os chamados ainda estarão acessíveis pelo painel
+        do cliente e sua equipe interna.
 
 - id: 4
   name: Arquivado
@@ -54,8 +55,8 @@
   flags: 0
   properties:
     description: >
-        Tickets only adminstratively available but no longer accessible on
-        ticket queues and client panel.
+        Chamados somente disponíveis administrivamente mas sem acesso nas
+        filas dos chamados e painel do cliente.
 
 - id: 5
   name: Apagado
@@ -65,4 +66,5 @@
   flags: 0
   properties:
     description: >
-        Chamados marcados para a remoção. Não acessíveis nas listas de chamados.
+        Chamados marcados para a remoção. Não acessíveis nas listas de
+        chamados.

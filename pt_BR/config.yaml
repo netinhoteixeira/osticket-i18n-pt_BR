@@ -11,7 +11,7 @@ core:
     default_priority_id: 2
     enable_daylight_saving: 0
 
-    reply_separator: '-- responda acima desta linha --'
+    reply_separator: '-- RESPONDA ACIMA DESTA LINHA --'
 
     # Do not translate below here
     isonline: 1
